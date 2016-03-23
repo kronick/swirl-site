@@ -1,0 +1,615 @@
+html {
+        width: 100%;
+        height: 100%;
+background: rgb(240,249,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,249,255,1)), color-stop(47%,rgba(203,235,255,1)), color-stop(100%,rgba(161,219,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+
+background-attachment: fixed;
+
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    font-family: "letter-gothic-std", "Helvetica neue", monospace;
+    text-align: center;
+    font-size: 16pt;
+    color: black;
+    margin: 0;
+}
+
+#header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0000ff+0,ffff00+51,ff00c3+100 */
+    background: #0000ff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #0000ff 0%, #ffff00 51%, #ff00c3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #0000ff 0%,#ffff00 51%,#ff00c3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #0000ff 0%,#ffff00 51%,#ff00c3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000ff', endColorstr='#ff00c3',GradientType=0 ); /* IE6-9 */
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 50%;
+}
+
+
+#black{
+    display: inline;
+    max-width: 15%;
+    background-color:black;
+    padding: 14% 1% 1% 1%;
+
+}
+
+#logotype {
+    /*min-width: 400px;*/
+    display: inline;
+    max-width: 15%;
+    margin-top: 2.3em;
+    //background-color:black;
+    //padding:0.5em;
+    -webkit-animation: spin 2s infinite linear;
+    -moz-animation: spin 2s infinite linear;
+    -o-animation: spin 2s infinite linear;
+    -ms-animation: spin 2s infinite linear;
+    }
+    @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg);}
+    100% { -webkit-transform: rotate(360deg);}
+    }
+    @-moz-keyframes spin {
+    0% { -moz-transform: rotate(0deg);}
+    100% { -moz-transform: rotate(360deg);}
+    }
+    @-o-keyframes spin {
+    0% { -o-transform: rotate(0deg);}
+    100% { -o-transform: rotate(360deg);}
+    }
+    @-ms-keyframes spin {
+    0% { -ms-transform: rotate(0deg);}
+    100% { -ms-transform: rotate(360deg);}
+
+
+}
+
+.center {
+    display: table;
+    margin: 0 auto;
+} 
+
+.navbar {
+    position: fixed;
+    display: inline-block;
+    float: left;
+    z-index: 1;
+    text-align:left;
+    padding-left:32%;
+    padding-top:1%;
+
+}
+
+.navbar a{
+    font-size:0.8rem;
+    color:white;
+    text-decoration:none;
+}
+
+#header h1 {
+    display: inline-block;
+    background-color:black;
+    color:white;
+    margin-top:2rem;
+    line-height: 0.95em;
+    padding: 0.2em 0.8em 0em 0.8em;
+    font-size:3.4em;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+#button {
+    float: left;
+    position: relative;
+    background-color:black;
+    color: white;
+    padding:0.2em 1em 0em 1em;
+    margin: 0 1em 0 1em;
+    font-size:1.3em;
+    vertical-align:center;
+}
+
+
+
+ul.pics{
+    width:80%;
+    list-style:none;
+    font-size:0px;
+    margin: auto;
+    padding:3rem;
+
+}
+
+ul.pics li{
+    display: inline-block;
+    font-size: 12px;
+    font-size: 1rem;
+    vertical-align: top;
+}
+
+ul.pics li img{
+    width: 7em;
+    height: 7em;
+    margin: 0.5em;
+}
+
+ul li.invisible {
+    display:inline-block;
+}
+
+ul li.invisible3{
+        display:inline-block;
+    }
+
+.section {
+    margin: 0;
+    padding-bottom: 3em;
+}
+
+
+.section h1,h2,h3 {
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+    padding-top:1em;
+    line-height: 0.95em;
+}
+
+.section h2 {
+    margin-top: 0em;
+    margin-bottom: 1em;
+
+}
+
+.section p {
+    margin-left: auto;
+    //margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 1em;
+    width: 90%;
+    max-width: 800px;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+
+.section .leftimg {
+    float: left;
+    width: 100%;
+}
+.section .info {
+    font-size: 200%;
+}
+
+.section .block {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.section .block h3 {
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    width: 80%;
+    max-width: 800px;
+
+}
+.section .block.full h3 {
+    width: 100%;
+}
+
+.section .block p {
+    font-style: normal;
+    text-align: left;
+    width: 90%;
+    max-width: 800px;
+    font-style:italic;
+}
+
+.section .block.full p {
+    width: 100%;
+}
+
+
+.section .block.full {
+    width: 80%;
+}
+
+.section .block img {
+    width: 100%;
+    padding-bottom:15%;
+}
+
+.section .block .logo {
+    text-align: center;
+}
+.section .block .logo img {
+    width: 40%;
+}
+
+
+.section h2 {
+    font-size:1em;
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+.section table {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section table td {
+    width: 25%;
+    padding: 3%;
+}
+
+.chunk {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 3em;
+    padding-right:30em;
+    margin-top: 7em;
+}
+
+
+.chunk h2{
+    text-align:center;
+    color:white;
+    background:black;
+    font-size:3rem;
+    padding: 0.2em 0.2em 0em 0.2em;
+    margin: 0em 1.7em 0.6em 1.7em;
+
+
+}
+
+.chunk p{
+    font-style: italic;
+    display: inline-block;
+    color:white;
+    background:black;
+    padding:1rem;
+    width:55vh;
+    margin-left:3.5em;
+}
+
+#howto{
+    background-color: #F9BD31;
+    display:inline-block;
+}
+
+#howto h2{
+    display: inline-block;
+    color:white;
+    background:black;
+    font-size:1rem;
+    font-size:1.2rem;
+    padding:0.3em 1em 0.1em 1em;
+    margin:1rem 0rem 0rem 0rem;
+
+}
+
+#howto p{
+    display: inline-block;
+    font-size:1rem;
+    padding:0em;
+
+}
+
+
+.section .block h3 {
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top:0.2em;
+    width: 80%;
+    max-width: 800px;
+
+}
+
+
+#swirlfulldiv {
+    background: url(../img/Swirl-closeup.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 65vh;
+}
+
+#swirlfundiv {
+    background: url(../img/booth-drawing-darker-small.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 75vh;
+}
+
+
+
+
+
+#qualities{
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9bd31+0,ff00a1+100 */
+    background: #f9bd31; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f9bd31 0%, #ff00a1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f9bd31 0%,#ff00a1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f9bd31 0%,#ff00a1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9bd31', endColorstr='#ff00a1',GradientType=0 ); /* IE6-9 */
+    padding:9% 3% 6% 3%;
+}
+
+
+
+
+
+
+#about {
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0,0,255);
+}
+
+
+#footer {
+    padding-top: 1em;
+    background-color: blue;
+    color: white;
+    padding:8% 12%;
+}
+
+#footer h3{
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.3em;
+    width: 36%;
+    max-width: 800px;
+
+}
+
+#footer a{
+    color:white;
+}
+
+
+
+@media screen and (max-width:480px) {
+
+    /* Single column layout */
+    .section .block {
+        width: 90%;
+        display: inline-block;
+    }
+    
+    body {
+        width:100%;
+        font-size: 11pt;
+    }
+
+        #black{
+        padding: 12% 1% 1% 2%;
+    }
+
+    .navbar {
+        display: none;
+
+    //position: fixed;
+    //display: inline-block;
+    //float: left;
+    //z-index: 1;
+    //text-align:left;
+    //padding-left:23%;
+
+}
+
+.navbar a{
+    font-size:0.6em;
+}
+
+    .wide {
+        display: none;
+    }
+
+    .narrow {
+        display: none;
+    }
+
+    ul.pics{
+        width:100%;
+        margin:1rem 0rem 0rem 0rem;
+        padding:0rem;
+    }
+
+    ul.pics li img{
+    width: 5.5rem;
+    height: 5.5rem;
+    margin: 0.6rem;
+    }
+
+    .section.interlude p{
+        margin-left:-13em;
+    }
+
+    #button{
+        font-size:1.1em;
+    }
+
+    .chunk {
+        display: inline-block;
+        float:right;
+        margin-top: 9em;
+        padding:0em;
+        margin:auto;
+        }
+
+    .chunk h2 {
+        text-align: center;
+        color: white;
+        background: black;
+        font-size: 3rem;
+        padding: 0.7rem 0.2rem 0rem 0.2rem;
+        margin: 8rem 3rem 0.6rem 3rem;
+    }   
+    .chunk p{
+        margin: auto;
+        width:75%;
+
+    }
+
+    #logotype {
+        max-width:15%;
+    }
+
+
+    #howto h2{
+       font-size: 1rem;
+        padding: 0.3rem 0.5rem 0.1rem 0.5rem;
+        margin: 1rem 0.2rem 0rem 0.2rem;
+    }
+
+    #howto p{
+        font-size:0.7em;
+    }
+
+    .section table{
+        width:95%;
+    }
+
+    .section {
+        padding-bottom:0em;
+    }
+
+    .section table td {
+    width: 25%;
+    padding: 6% 0%;
+}
+    #swirlfulldiv{
+    background: url(../img/booth-small.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 68%;
+    }
+
+    #swirlfundiv {
+        display:none;
+    //height: 45%;
+    }
+
+    .section .block img{
+        padding-bottom:0em;
+    }
+
+    .section .block p{
+        width:100%;
+    }
+
+    .section{
+        padding-bottom:0em;
+    }
+
+    #footer h3{
+        margin: 0em 0.8em 1em 0.8em;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+     #button {
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1120px) {
+    ul li.invisible {
+        display:none;
+    }
+
+}
+
+@media screen and (min-width: 960px) and (max-width: 1120px){
+    ul li.invisible3{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 320px){
+        ul.pics li img{
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    #black{
+        padding: 11% 1% 1% 1%;
+    }
+
+    ul.pics {
+    width: 70%;
+    }
+}
+
+@media screen and (min-width: 1462px){
+    #black{
+        padding: 9% 1% 1% 1%;
+    }
+
+    ul.pics {
+    width: 61%;
+    }
+}
+
+@media screen and (min-width: 1679px){
+
+        #black{
+        padding: 8% 1% 1% 1%;
+    }
+
+    ul.pics {
+    width: 54%;
+    }
+}
+
+@media screen and (min-width: 1896px){
+
+
+        #black{
+        padding: 7% 1% 1% 1%;
+    }
+
+    ul.pics {
+    width: 48%;
+    }
+}
